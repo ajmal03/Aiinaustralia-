@@ -590,6 +590,7 @@ strong {
   border-radius: var(--border-radius-medium);
   display: block;
   width: 100%;
+  hight:400px;
 }
 
 .artists-thumb:hover .artists-hover {
