@@ -638,8 +638,8 @@ strong {
   SCHEDULE              
 -----------------------------------------*/
  .schedule-section {
-/*   background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg'); */
-/*   background-color: #242424; */
+background-image: url('../images/aj_bg.png');
+  background-color: #242424;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
