@@ -667,7 +667,7 @@ strong {
   line-height: 1.3;
   font-size: 26px; }
   .posts-entry .blog-entry h2 a, .posts-entry .blog-entry .h2 a {
-    color: #fff; }
+    color: #000; }
 
 .posts-entry .btn-sm, .posts-entry .btn-group-sm > .btn {
   padding-top: 10px;
@@ -681,7 +681,7 @@ strong {
 .posts-entry .blog-entry-sm h3, .posts-entry .blog-entry-sm .h3 {
   font-size: 20px; }
   .posts-entry .blog-entry-sm h3 a, .posts-entry .blog-entry-sm .h3 a {
-    color: #fff; }
+    color: #000; }
 
 .posts-entry.posts-entry-sm .blog-entry h2, .posts-entry.posts-entry-sm .blog-entry .h2 {
   font-size: 18px; }
