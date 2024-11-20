@@ -790,8 +790,8 @@ strong {
 .bg-light {
   --bs-bg-opacity: 1;
   /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
-  background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg');
-  background-color: #242424;
+/*   background-image: url('../images/nainoa-shizuru-unsplash-blur.jpg'); */
+/*   background-color: #242424; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
