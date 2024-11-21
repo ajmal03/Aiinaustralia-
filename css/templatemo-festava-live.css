@@ -1131,9 +1131,9 @@ background-image: url('../images/aj_bg.png');
     padding-bottom: 50px;
   }
   
-/*   .navbar {
+  .navbar {
     background-color: var(--dark-color);
-  } */
+  }
 
   .navbar-expand-lg .navbar-nav {
     padding-bottom: 30px;
