@@ -553,7 +553,7 @@
                                             id="contact-message" placeholder="Message"></textarea>
 
                                         <div class="col-lg-4 col-md-10 col-8 mx-auto">
-                                            <button type="submit" class="form-control" value="Submit">Send message</button>
+                                            <button type="submit" class="form-control" value="Submit" id="submitBtn">Send message</button>
                                         </div>
                                     </div>
                                 </form>
@@ -729,10 +729,17 @@
         </div>
     </footer>
 
-<script type="text/javascript">var submitted=false;</script>
+<!-- <script type="text/javascript">var submitted=false;</script>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){
             window.location='https://aiinaustralia.com/';}"></iframe>
+ -->
 
+     <script>
+      document.getElementById("submitBtn").addEventListener("click", myFunction);  
+      function myFunction() {  
+        window.location.href="https://aiinaustralia.com/";  
+      }
+    </script>
     <!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
