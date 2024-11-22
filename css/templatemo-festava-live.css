@@ -1120,15 +1120,15 @@ background-image: url('../images/aj_bg.png');
   .ticket-form {
     padding: 30px;
   }
-navbar-brand{
+/* navbar-brand{
 width: 110px;
-}
+} */
 }
 
 @media screen and (max-width: 767px) {
-navbar-brand{
+/* navbar-brand{
 width: 100px;
-}
+} */
   .custom-btn {
     font-size: 14px;
     padding: 10px 20px;
