@@ -1136,6 +1136,9 @@ width: 100px;
   h2 {
     margin-top: 3rem;
   }
+	 h1 {
+    font-size: 45px;
+  }
 }
 
 @media screen and (max-width: 480px) {
