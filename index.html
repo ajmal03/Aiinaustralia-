@@ -21,13 +21,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;700&display=swap" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <link href="css/bootstrap-icons.css" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/neighbor" rel="stylesheet">
 
     <link href="css/templatemo-festava-live.css" rel="stylesheet">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
 
 </head>
 
@@ -336,6 +340,94 @@
                 </div>
             </div>
         </section>
+<!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+
+        <section id="portfolio" class="portfolio section">
+  <div class="container">
+    <!-- Section Title -->
+    <div class="section-title" data-aos="fade-up">
+      <h2>Portfolio</h2>
+      <p>Explore our projects</p>
+    </div>
+
+    <!-- Controls for Filters and View Modes -->
+    <div class="portfolio-controls d-flex justify-content-between align-items-center" data-aos="fade-up">
+      <!-- View Modes -->
+     <!--  <div>
+        <button class="btn btn-sm btn-outline-primary view-toggle" data-view="grid">Grid View</button>
+        <button class="btn btn-sm btn-outline-primary view-toggle" data-view="list">List View</button>
+      </div> -->
+      <!-- Filters -->
+      <ul class="portfolio-filters list-inline mb-0">
+        <li class="list-inline-item filter-active" data-filter="*">All</li>
+        <li class="list-inline-item" data-filter=".filter-app">Apps</li>
+        <li class="list-inline-item" data-filter=".filter-web">Websites</li>
+        <li class="list-inline-item" data-filter=".filter-design">Designs</li>
+      </ul>
+    </div>
+    <br>
+
+    <!-- Portfolio Items -->
+    <div class="row portfolio-container grid-view" data-aos="fade-up" data-aos-delay="200">
+      <!-- Example Portfolio Items -->
+      <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+        <img src="images/Screenshot (296).png" class="img-fluid" alt="App Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">App</h5>
+          <p>Rentop: Bike & Car Rentals <a href="#" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+          <a href="https://apps.apple.com/in/app/rentop-bike-car-rentals/id1661307350" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <img src="images/Screenshot (293).png" class="img-fluid" alt="Web Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Web</h5>
+          <p>healthiq <a href="https://healthiq.plus/" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <img src="images/Screenshot (295).png" class="img-fluid" alt="Web Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Web</h5>
+          <p>tweetfox <a href="https://assignmentgpt.ai/" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <img src="images/Screenshot (294).png" class="img-fluid" alt="Web Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Web</h5>
+          <p>assignmentgpt <a href="https://assignmentgpt.ai/" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+        <img src="images/5135178_2691902.jpg" class="img-fluid" alt="Design Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Design</h5>
+          <p>Creative branding solutions <a href="#" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+        <img src="images/4220497_2248604.jpg" class="img-fluid" alt="Design Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Design</h5>
+          <p>Creative branding solutions <a href="#" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 portfolio-item filter-design">
+        <img src="images/17806780_5817154.jpg" class="img-fluid" alt="Design Project 1">
+        <div class="portfolio-info">
+          <h5 style="color:white;">Design</h5>
+          <p>Creative branding solutions <a href="#" title="More Details" class="preview-link"><i class="bi bi-link-45deg"></i></a></p>
+        </div>
+      </div>
+      <!-- Add more items as needed -->
+    </div>
+  </div>
+</section>
+      </section>
+
 
 
         <section class="schedule-section section-padding" id="Articles">
@@ -402,6 +494,137 @@
                         </div>
                     </section>
             
+            
+        <section id="testimonials">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Our Clients Say</h2>
+        <p>We’ve partnered with industry leaders to deliver innovative AI solutions. Here’s what they have to say about us.</p>
+      </div>
+
+      <div class="swiper testimonial-slider">
+        <div class="swiper-wrapper">
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                   “Working with Andy Parackal and his company, AI in Australia, has been an absolute game-changer for TNC Group. Andy’s expertise in marketing, lead generation, and innovative software solutions has elevated our business to new heights. His ability to implement cutting-edge strategies and deliver measurable results has exceeded our expectations. Andy’s professionalism, creativity, and commitment to our success have made him an invaluable partner. I highly recommend AI in Australia for any business looking to transform its operations and achieve outstanding results.”
+            <br>
+
+            — Wade Davis, Founder, TNC Group
+            TNC Group Investment Property Specialist
+              </p>
+              <div class="testimonial-author">
+                <img src="images/media_20241124_212754_2701404659062371625.jpg" alt="Client 1">
+                <h4>Wade Davis</h4>
+                <p>Founder of TNC Group</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                 "ChatBoo is a cutting-edge, cross-platform AI companion app that features real-time AI voice calling. As the founder, I’m proud to say that AI in Australia played a crucial role in the success of our product. Their team demonstrated technical brilliance, professionalism, and unwavering dedication throughout the development process.
+                <br>
+                One of the standout aspects of working with AI in Australia was their location—being based here in Australia was non-negotiable for us. Our customers’ data security is paramount, and we needed a trusted partner that shares our commitment to maintaining the highest standards.
+                "<br>
+                _ Adam Jones
+              </p>
+              <div class="testimonial-author">
+                <img src="images/espes.png"  alt="Client 2">
+                <h4>Adam Jones</h4>
+                <p>Founder of ChatBoo</p>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon">“</div>
+              <p class="testimonial-text">
+                “Working with Andy Parackal and his company, AI in Australia, has been an absolute game-changer for TNC Group. Andy’s expertise in marketing, lead generation, and innovative software solutions has elevated our business to new heights. His ability to implement cutting-edge strategies and deliver measurable results has exceeded our expectations. Andy’s professionalism, creativity, and commitment to our success have made him an invaluable partner. I highly recommend AI in Australia for any business looking to transform its operations and achieve outstanding results.”
+            <br>
+
+            — Wade Davis, Founder, TNC Group
+            TNC Group Investment Property Specialist
+              </p>
+              <div class="testimonial-author">
+                <img src="images/media_20241124_212754_2701404659062371625.jpg" alt="Client 3">
+                <h4>Wade Davis</h4>
+                <p>Founder of TNC Group</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </section>
+
+<section id="team" class="team-section">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2 style="text-align: left; color: #fff;">Our Team</h2>
+        <p style="text-align: left; color: #fff;">Meet our talented professionals.</p>
+      </div>
+      <div class="row">
+        <!-- Team Member 1 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="team-member">
+            <img src="images/Andy.jpg" alt="Team Member 1" class="img-fluid">
+            <div class="member-info">
+              <h4>Andy parackal </h4>
+              <span>CTO</span>
+              <!-- <p>John is an experienced leader with over 10 years in the AI industry.</p> -->
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter" style="color:#ef6603;"></i></a>
+                <a href="#"><i class="bi bi-facebook" style="color:#ef6603;"></i></a>
+                <a href="#"><i class="bi bi-linkedin" style="color:#ef6603;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="team-member">
+            <img src="images/Hayley.jpg" alt="Team Member 2" class="img-fluid">
+            <div class="member-info">
+              <h4>Hayley Floyd</h4>
+              <span>Account executive</span>
+              <!-- <p>Jane oversees our tech strategy and ensures cutting-edge innovations.</p> -->
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter" style="color:#ef6603;"></i></a>
+                <a href="#"><i class="bi bi-facebook" style="color:#ef6603;"></i></a>
+                <a href="#"><i class="bi bi-linkedin" style="color:#ef6603;"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+       <!--  <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="team-member">
+            <img src="https://via.placeholder.com/150" alt="Team Member 3" class="img-fluid">
+            <div class="member-info">
+              <h4>Emma Brown</h4>
+              <span>Head of Marketing</span>
+              <p>Emma drives our marketing campaigns and brand outreach globally.</p>
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </section>
 
         <section class="contact-section section-padding" id="Contact">
             <div class="container">
@@ -645,6 +868,60 @@
             })
         })
     </script> -->
+  <!-- Include Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new Swiper('.testimonial-slider', {
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        slidesPerView: 1,
+        spaceBetween: 20,
+      });
+    });
+  </script>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+    <script>
+  // Portfolio Filtering
+  document.querySelectorAll('.portfolio-filters li').forEach(filter => {
+    filter.addEventListener('click', function () {
+      // Activate the selected filter
+      document.querySelector('.filter-active').classList.remove('filter-active');
+      this.classList.add('filter-active');
+
+      // Filter portfolio items
+      const filterValue = this.getAttribute('data-filter');
+      document.querySelectorAll('.portfolio-item').forEach(item => {
+        item.style.display = (filterValue === '*' || item.classList.contains(filterValue.substring(1))) ? 'block' : 'none';
+      });
+    });
+  });
+
+  // Portfolio View Toggle
+  document.querySelectorAll('.view-toggle').forEach(button => {
+    button.addEventListener('click', function () {
+      const view = this.getAttribute('data-view');
+      const container = document.querySelector('.portfolio-container');
+      container.className = `row portfolio-container ${view}-view`;
+    });
+  });
+</script>
 
      <script>
     $("#submit-form").submit((e) => {
@@ -670,6 +947,8 @@
     <script src="js/jquery.sticky.js"></script>
     <script src="js/click-scroll.js"></script>
     <script src="js/custom.js"></script>
+
+
 </body>
 
 </html>
