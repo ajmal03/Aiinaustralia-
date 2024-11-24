@@ -809,6 +809,7 @@ strong {
   width: 150px;
   height: 150px;
   margin: 15px auto 15px;
+    border: 4px solid #f9c74f;
 }
 
 .member-info {
