@@ -370,10 +370,10 @@ strong {
   z-index: 9;
 }
 
-.navbar-brand {
+/* .navbar-brand {
   display: flex;
   align-items: center;
-}
+} */
 .navbar-brand img {
   max-height: 50px; /* Adjust based on your logo size */
 }
@@ -415,11 +415,11 @@ strong {
   height: 35px;
   outline: none;
 } */
-.navbar-toggler {
+/* .navbar-toggler {
   margin-left: auto; /* Push toggler icon to the far right */
   display: flex;
   align-items: center;
-}
+} */
 
 .navbar-toggler:focus {
   outline: none;
@@ -1455,7 +1455,7 @@ width: 110px;
   }
 
   .navbar-brand img {
-    max-height: 40px; /* Smaller logo for mobile */
+    max-height: 50px; /* Smaller logo for mobile */
   }
 
   .navbar-toggler {
