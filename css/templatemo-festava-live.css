@@ -817,7 +817,7 @@ strong {
 
 .team-member {
   text-align: center;
-  background: #060606;
+  background: rgb(12 12 12 / 80%);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
