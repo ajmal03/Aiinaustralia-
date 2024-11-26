@@ -10,7 +10,7 @@
           // or redirect to another page: window.location.href = "https://google.com";
         },
         error: function (err) {
-          alert("Form submitted successfully!");
+          alert(" Thank You! Your form has been successfully submitted. We will get in touch with you shortly.");
           window.location.reload();
         },
       });
