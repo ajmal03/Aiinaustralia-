@@ -370,13 +370,25 @@ strong {
   z-index: 9;
 }
 
+/* Align logo and menu icon on small screens */
 .navbar-brand {
   display: flex;
   align-items: center;
 }
-.navbar-brand img {
-  max-height: 50px; /* Adjust based on your logo size */
+
+.navbar-toggler {
+  margin-left: auto; /* Push toggler icon to the far right */
+  display: flex;
+  align-items: center;
 }
+
+/* Optional: Adjust padding and logo size for better spacing */
+.navbar {
+  padding: 10px 15px;
+}
+/* .navbar-brand img {
+  max-height: 50px; 
+} */
 
 .navbar-brand,
 .navbar-brand:hover {
