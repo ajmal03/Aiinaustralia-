@@ -370,6 +370,11 @@ strong {
   z-index: 9;
 }
 
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
 .navbar-brand,
 .navbar-brand:hover {
   color: var(--white-color);
@@ -398,7 +403,7 @@ strong {
   color: var(--secondary-color);
 }
 
-.navbar-toggler {
+/* .navbar-toggler {
   border: 0;
   padding: 0;
   cursor: pointer;
@@ -406,6 +411,11 @@ strong {
   width: 30px;
   height: 35px;
   outline: none;
+} */
+.navbar-toggler {
+  margin-left: auto; /* Push toggler icon to the far right */
+  display: flex;
+  align-items: center;
 }
 
 .navbar-toggler:focus {
@@ -1437,9 +1447,17 @@ width: 110px;
 }
 
 @media screen and (max-width: 767px) {
-/* navbar-brand{
-width: 100px;
-} */
+ .navbar {
+    padding: 5px 10px;
+  }
+
+  .navbar-brand img {
+    max-height: 40px; /* Smaller logo for mobile */
+  }
+
+  .navbar-toggler {
+    margin-left: auto; /* Ensure icon stays on the right */
+  }
   .custom-btn {
     font-size: 14px;
     padding: 10px 20px;
