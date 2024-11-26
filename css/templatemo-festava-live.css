@@ -1381,9 +1381,9 @@ background-image: url('../images/aj_bg.png');
   RESPONSIVE STYLES               
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
-  h1 {
+/*   h1 {
     font-size: 60px;
-  }
+  } */
 
   h2 {
     font-size: 36px;
@@ -1462,6 +1462,9 @@ width: 110px;
 }
 
 @media screen and (max-width: 767px) {
+h1 {
+    font-size:30px;
+  }
  .navbar {
     padding: 5px 10px;
   }
@@ -1480,15 +1483,13 @@ width: 110px;
   h2 {
     margin-top: 3rem;
   }
-	 h1 {
-    font-size: 45px;
-  }
+
 }
 
 @media screen and (max-width: 480px) {
-  h1 {
+/*   h1 {
     font-size: 45px;
-  }
+  } */
 
   h2 {
     font-size: 28px;
