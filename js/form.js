@@ -10,7 +10,8 @@
           // or redirect to another page: window.location.href = "https://google.com";
         },
         error: function (err) {
-          alert("Something went wrong.");
+          alert("Form submitted successfully!");
+          window.location.reload();
         },
       });
     });
