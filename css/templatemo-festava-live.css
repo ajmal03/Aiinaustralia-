@@ -659,6 +659,94 @@ strong {
 .artists-hover hr {
   margin: 1.5rem 0;
 }
+
+
+
+
+/*---------------------------------------
+  Chat bot              
+-----------------------------------------*/
+
+
+ .chat-bubble {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 1000;
+    }
+  
+    .chat-bubble img {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .chat-container {
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      width: 90%;
+      height: 80%;
+      max-width: 400px;
+      max-height: 600px;
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      display: none;
+      z-index: 1000;
+      overflow: hidden;
+    }
+  
+    .chat-container iframe {
+      width: 100%;
+      height: calc(100% - 50px);
+      border: none;
+    }
+  
+    .chat-container .chat-header {
+      position: relative;
+      height: 50px;
+      background-color: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+      border-bottom: 1px solid #ccc;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      color: #333;
+    }
+  
+    .chat-container .chat-header .close-button {
+      cursor: pointer;
+      font-size: 24px;
+      font-weight: bold;
+      color: #555;
+      padding: 0 10px;
+    }
+  
+    @media screen and (min-width: 600px) {
+      .chat-container {
+        width: 400px;
+        height: 600px;
+        bottom: 100px;
+        right: 20px;
+      }
+    }
+
+
+
+
 /*---------------------------------------
   portfolio              
 -----------------------------------------*/
