@@ -34,7 +34,54 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
- 
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Create Chat Bubble
+    const chatBubble = document.createElement("div");
+    chatBubble.className = "chat-bubble";
+    chatBubble.innerHTML = `
+      <img src="images/chat.png" alt="Chat Icon" />
+    `;
+    document.body.appendChild(chatBubble);
+
+    // Create Chat Container
+    const chatContainer = document.createElement("div");
+    chatContainer.className = "chat-container";
+    chatContainer.style.display = "none"; // Ensure hidden initially
+
+   const welcomeMessage = encodeURIComponent("Welcome to our website! How can I help you?");
+const systemMessage = encodeURIComponent("Hello! AI in Australia (AiiA) is here to make artificial intelligence and machine learning accessible to everyone. We offer a range of services to help you understand and explore these exciting technologies. Here's what we have: 1. **Events**: Join us at our workshops, seminars, and conferences to learn from experts, network, and expand your knowledge. 2. **Research Papers**: Dive into our repository of research papers to stay updated with the latest developments in AI and ML. 3. **Articles**: Read insightful articles written by experts and community members, covering various aspects of AI and its practical applications. 4. **Monthly Newsletters**: Sign up to receive monthly newsletters packed with news, updates, and helpful resources. We'd love to hear about your interests in AI and machine learning. Let's explore how AiiA's services can help you unlock their potential. To get in touch, please use our contact form at [https://aiinaustralia.com/](https://aiinaustralia.com/) or email us at [info@aiinaustralia.com.au](mailto:aiinaustralia.au@gmail.com).");
+
+    chatContainer.innerHTML = `
+      <div class="chat-header">
+        <span>AiiA AI</span>
+        <span class="close-button" style="cursor: pointer;">&times;</span>
+      </div>
+      <iframe 
+        src="https://main.dn1a0s4d5ozpp.amplifyapp.com/?welcomeMessage=${welcomeMessage}&systemMessage=${systemMessage}"  
+        title="Chat UI" 
+        style="width: 100%; height: 90%; border: none;">
+      </iframe>
+    `;
+    document.body.appendChild(chatContainer);
+
+    // Event Listeners
+    const closeButton = chatContainer.querySelector(".close-button");
+
+    // Show/Hide Chat Container
+    chatBubble.addEventListener("click", function () {
+      chatContainer.style.display =
+        chatContainer.style.display === "none" || !chatContainer.style.display
+          ? "block"
+          : "none";
+    });
+
+    // Close Chat Container
+    closeButton.addEventListener("click", function () {
+      chatContainer.style.display = "none";
+    });
+  });
+</script>
 
 </head>
 
