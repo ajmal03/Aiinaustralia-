@@ -691,6 +691,7 @@ strong {
   
     .chat-container {
       position: fixed;
+      top:10px;	
       bottom: 20px;
       right: 10px;
       width: 90%;
