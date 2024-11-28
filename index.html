@@ -34,6 +34,50 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
 
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const chatBubble = document.createElement("div");
+    chatBubble.className = "chat-bubble";
+    chatBubble.innerHTML = 
+      <img src="https://cdn-icons-png.flaticon.com/512/134/134914.png" alt="Chat Icon">
+    ;
+    document.body.appendChild(chatBubble);
+
+    const chatContainer = document.createElement("div");
+    chatContainer.className = "chat-container";
+    
+    const welcomeMessage = encodeURIComponent("Welcome to our website! How can I help you?");
+const systemMessage = encodeURIComponent("This is an AI assistant.");
+    chatContainer.innerHTML = `
+      <div class="chat-header">
+        <span>example AI</span>
+        <span class="close-button">&times;</span>
+      </div>
+      <iframe 
+        src="https://main.dn1a0s4d5ozpp.amplifyapp.com/?welcomeMessage=${welcomeMessage}&
+        systemMessage=${systemMessage}" 
+        title="Chat UI">
+      </iframe>
+      `;
+    document.body.appendChild(chatContainer);
+
+    const closeButton = chatContainer.querySelector(".close-button");
+
+    chatBubble.addEventListener("click", function () {
+      chatContainer.style.display =
+        chatContainer.style.display === "none" || !chatContainer.style.display
+          ? "block"
+          : "none";
+    });
+
+    closeButton.addEventListener("click", function () {
+      chatContainer.style.display = "none";
+    });
+  });
+</script>
+
+
 </head>
 
 <body>
