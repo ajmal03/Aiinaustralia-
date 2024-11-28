@@ -50,7 +50,7 @@
     chatContainer.className = "chat-container";
     chatContainer.style.display = "none"; // Ensure hidden initially
 
-   const welcomeMessage = encodeURIComponent("Welcome to our website! How can I help you?");
+   const welcomeMessage = encodeURIComponent("AiiA AI ready to assist you");
 const systemMessage = encodeURIComponent("This is an AI assistant.");
 
     chatContainer.innerHTML = `
@@ -59,7 +59,7 @@ const systemMessage = encodeURIComponent("This is an AI assistant.");
         <span class="close-button" style="cursor: pointer;">&times;</span>
       </div>
       <iframe 
-        src="https://aiinaustralia.com/aiia-ai/?welcomeMessage=${welcomeMessage}&systemMessage=${systemMessage}"  
+        src="https://main.dn1a0s4d5ozpp.amplifyapp.com/?welcomeMessage=${welcomeMessage}&systemMessage=${systemMessage}"  
         title="Chat UI" 
         style="width: 100%; height: 90%; border: none;">
       </iframe>
